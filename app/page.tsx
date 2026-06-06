@@ -10,7 +10,7 @@ export default function Home() {
             alt="Lunatic Conglomerate LLC – Acquire Your Sanity"
             width={1600}
             height={1050}
-            className="w-1/2 h-auto"
+            className="max-w-full md:w-1/2 h-auto"
             priority
           />
         </header>
