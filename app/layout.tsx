@@ -36,7 +36,7 @@ export const metadata: Metadata = {
     description: "We acquire your sanity. No refunds. No pull requests.",
     images: [
       {
-        url: "/hero.png",
+        url: "/banner.png",
         width: 1200,
         height: 630,
         alt: "Lunatic Conglomerate LLC",
@@ -66,7 +66,28 @@ export const metadata: Metadata = {
       { url: "/128x128.png", sizes: "128x128", type: "image/png" },
     ],
     shortcut: "/128x128.png",
-    apple: "/128x128.png",
+    apple: [
+      {
+        url: "/apple-touch-icon-ipad-76x76.png",
+        sizes: "76x76",
+        type: "image/png",
+      },
+      {
+        url: "/apple-touch-icon-ipad-retina-152x152.png",
+        sizes: "152x152",
+        type: "image/png",
+      },
+      {
+        url: "/apple-touch-icon-iphone-60x60.png",
+        sizes: "60x60",
+        type: "image/png",
+      },
+      {
+        url: "/apple-touch-icon-iphone-retina-120x120.png",
+        sizes: "120x120",
+        type: "image/png",
+      },
+    ],
   },
 };
 
