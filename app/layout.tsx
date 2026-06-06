@@ -83,8 +83,33 @@ export const metadata: Metadata = {
         type: "image/png",
       },
       {
+        url: "/apple-touch-icon-iphone-128x128.png",
+        sizes: "128x128",
+        type: "image/png",
+      },
+      {
         url: "/apple-touch-icon-iphone-retina-120x120.png",
         sizes: "120x120",
+        type: "image/png",
+      },
+      {
+        url: "/apple-touch-icon-iphone-retina-256x256.png",
+        sizes: "256x256",
+        type: "image/png",
+      },
+      {
+        url: "/apple-touch-icon-iphone-retina-1024x1024.png",
+        sizes: "1024x1024",
+        type: "image/png",
+      },
+      {
+        url: "/apple-touch-icon-iphone-retina-180x180.png",
+        sizes: "180x180",
+        type: "image/png",
+      },
+      {
+        url: "/apple-touch-icon-iphone-retina-144x144.png",
+        sizes: "144x144",
         type: "image/png",
       },
     ],
