@@ -1,0 +1,56 @@
+@import "tailwindcss";
+
+@source "../**/*.{js,ts,jsx,tsx}";
+
+@theme {
+  --color-background: #130d18;
+  --color-accent: #f72585;
+  --color-secondary: #4cc9f0;
+  --color-foreground: #f0e6f6;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: var(--color-background);
+  color: var(--color-foreground);
+}
+
+@keyframes glitch {
+  0% {
+    text-shadow:
+      2px 0 var(--color-accent),
+      -2px 0 var(--color-secondary);
+  }
+  20% {
+    text-shadow:
+      -1.5px 0 var(--color-accent),
+      1.5px -1px var(--color-secondary);
+  }
+  40% {
+    text-shadow:
+      1px 1px var(--color-accent),
+      -1.5px 0 var(--color-secondary);
+  }
+  60% {
+    text-shadow:
+      -2px -0.5px var(--color-accent),
+      1.5px 1px var(--color-secondary);
+  }
+  80% {
+    text-shadow:
+      1.5px -1px var(--color-accent),
+      -1px 0 var(--color-secondary);
+  }
+  100% {
+    text-shadow:
+      2px 0 var(--color-accent),
+      -2px 0 var(--color-secondary);
+  }
+}
+
+.glitch-on-hover:hover {
+  animation: glitch 0.3s ease-in-out infinite;
+}
